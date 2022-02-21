@@ -6,7 +6,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest --silent",
+    "test:watch": "jest --watch",
+    "typecheck": "tsc"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
