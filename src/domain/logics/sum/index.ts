@@ -6,7 +6,7 @@
  * ex) (1, 2) => 3
  */
 const sumNumber = (a: number, b: number) => {
-  return a + b
-}
+  return a + b;
+};
 
-export { sumNumber }
+export { sumNumber };
