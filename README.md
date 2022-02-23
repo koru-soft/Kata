@@ -1,1 +1,1 @@
-### AtcCoderもしくはCodeWarへの取り組み用リポジトリ
+### AtcCoder,CodeWar,leetCodeへの取り組み用リポジトリ
