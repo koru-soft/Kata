@@ -34,17 +34,6 @@ describe("ブルートフォース型で配列の要素のどれかを2つ足す
     // Assert
     expect(result).toEqual(expected);
   });
-  it("正しく動くパターン", () => {
-    // Arrange
-    const data = [1, 3, 5];
-    const expected = [0, 2];
-
-    // Act
-    const result = hashTableTwoSum(data, 6);
-
-    // Assert
-    expect(result).toEqual(expected);
-  });
 });
 
 describe("ハッシュテーブル型で配列の要素のどれかを2つ足すと、和が指定した数字になるような配列のインデックスの組み合わせをreturnする", () => {
