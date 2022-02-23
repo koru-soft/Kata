@@ -34,7 +34,28 @@ export const bruteForceTwoSum: twoSumType = (arr, target) => {
       }
     }
   }
-  // errorをthrowした場合、testが扱いにくくなるため空配列を返すよう定義
-  return [];
+  // errorをthrowした場合、testが扱いにくくなるため"not found"を返すよう定義
+  return "not found";
   // throw new Error("error");
+};
+
+// ハッシュテーブル型
+type hashtableType = {
+  [key: string]: number
+}
+
+export const hashTableTwoSum: twoSumType = (arr, target) => {
+  const hashtable: hashtableType = {};
+  const arrSize = arr.length;
+
+  for (let i = 0; i < arrSize; i++) {
+    const diff = target - arr[i];
+
+    if (hashtable && Object.prototype.hasOwnProperty.call(hashtable, diff)) {
+      return [hashtable[diff], i];
+    }
+
+    hashtable[arr[i]] = i;
+  }
+  return "not found";
 };
