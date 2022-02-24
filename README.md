@@ -1,1 +1,3 @@
-### AtcCoderもしくはCodeWarへの取り組み用リポジトリ
+### AtCoder、CodeWar、LeetCodeへの取り組み用リポジトリ
+
+
